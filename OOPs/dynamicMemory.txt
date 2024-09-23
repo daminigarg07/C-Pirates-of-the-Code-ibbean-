@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+class Demo {
+    private:
+        int *p;
+
+    public:
+        Demo() {
+            p = new int;  // Dynamically allocate memory
+            *p = 10;
+        }
+
+        ~Demo() {
+            delete p;  // Free dynamically allocated memory
+        }
+
+        void display() {
+            cout << "Value: " << *p << endl;
+        }
+};
+
+int main() {
+    Demo obj;
+    obj.display();  // Output: Value: 10
+    return 0;
+}
