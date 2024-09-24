@@ -29,8 +29,9 @@ Here's a sneak peek at the topics covered in this practice repo:
 If you want to run the programs or tweak them to your liking, you can easily get set up with the following steps:
 
 ### 1. **Clone the repo** 🌀:
+```bash
    git clone https://github.com/daminigarg07/C-Pirates-of-the-Code-ibbean.git
-
+```
 ### 2. Experiment, Learn, and Grow 🎉
 Dive into the code, tweak, and see what you can create!
 
